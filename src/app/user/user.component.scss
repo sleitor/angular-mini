@@ -1,0 +1,15 @@
+.card-content {
+  height: 110px;
+}
+
+.clicked {
+  font-weight: bold;
+  color: red !important;
+}
+
+
+.hovered {
+  transform: scale(1.05);
+  transition: 0.3s all;
+  box-shadow: 0 0 5px black;
+}
