@@ -5,14 +5,14 @@ import {Directive, HostBinding, HostListener} from '@angular/core';
 })
 export class UserDirective {
 
-@HostBinding('class.hovered') isHowered = false;
+  @HostBinding('class.hovered') isHowered = false;
 
-@HostListener('mouseenter') onMouseEnter() {
-  this.isHowered = true;
-}
+  @HostListener('mouseenter') onMouseEnter() {
+    this.isHowered = true;
+  }
 
-@HostListener('mouseleave') onMouseLeave() {
-  this.isHowered = false;
-}
+  @HostListener('mouseleave') onMouseLeave() {
+    this.isHowered = false;
+  }
 
 }
