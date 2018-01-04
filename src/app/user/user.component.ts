@@ -11,6 +11,6 @@ export class UserComponent {
   click = false;
 
   Onclick() {
-    this.click = true;
+    this.click = !this.click;
   }
 }
