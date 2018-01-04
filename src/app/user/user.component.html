@@ -1,11 +1,11 @@
-<div class="col s3" m6>
+<div class="col s3 m6">
   <div class="card" appHover>
     <div class="card-image">
       <img src="{{user.picture}}">
       <span
         class="card-title"
         [ngClass] = "click ? 'clicked' : ''"
-      >{{user.name}}</span>
+      >{{user.name | uppercase}}</span>
     </div>
     <div class="card-content">
       <p> {{user.location}}</p>

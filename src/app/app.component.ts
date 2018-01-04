@@ -9,6 +9,7 @@ import {UserService} from './user.service';
 })
 export class AppComponent implements OnInit {
   users = [];
+  searchVal = '';
   constructor(private userService: UserService) {}
 
   ngOnInit() {
